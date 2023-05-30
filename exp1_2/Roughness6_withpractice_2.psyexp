@@ -129,7 +129,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="You're done! You've reached the end of the firsr part!&amp;#10;&amp;#10;Press any key to continue. " valType="str"/>
+        <Param name="text" updates="constant" val="You're done! You've reached the end of the first part!&amp;#10;&amp;#10;Press any key to continue. " valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -174,7 +174,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="text" updates="constant" val="You will be presented with two tones and will have to respond to simple questions using a slider. Please pay attention to both tones, as you will need to compare them to each other. The questions will either be about how similar the two tones are in their pitch, tremolo or roughness. &amp;#10;&amp;#10;Some example sounds will also be played to introduce what is meant by tremolo, roughness and pitch. &amp;#10;&amp;#10;Press any key to proceed. " valType="str"/>
+        <Param name="text" updates="constant" val="You will be presented with two tones and will have to respond to simple questions using a slider. Please pay attention to both tones, as you will need to compare them to each other. The questions will either be about how similar the two tones are in their pitch, tremolo or roughness, which will be explained later.&amp;#10;&amp;#10;Press any key to proceed. " valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -973,7 +973,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="1.0" valType="code"/>
         <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
-        <Param name="volume" updates="constant" val="1" valType="num"/>
+        <Param name="volume" updates="constant" val="0.2" valType="num"/>
       </SoundComponent>
       <SoundComponent name="sound_2">
         <Param name="disabled" updates="None" val="False" valType="bool"/>
@@ -1024,14 +1024,14 @@
         <Param name="contrast" updates="constant" val="1" valType="num"/>
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
-        <Param name="fillColor" updates="constant" val="-1.0000, -1.0000, -1.0000" valType="color"/>
+        <Param name="fillColor" updates="constant" val="Red" valType="color"/>
         <Param name="flip" updates="constant" val="False" valType="bool"/>
-        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
         <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
         <Param name="granularity" updates="constant" val="0" valType="num"/>
-        <Param name="initVal" updates="None" val="0" valType="code"/>
-        <Param name="labels" updates="constant" val="('The same' 'Completely different')" valType="list"/>
-        <Param name="letterHeight" updates="constant" val="0.07" valType="num"/>
+        <Param name="initVal" updates="None" val="" valType="code"/>
+        <Param name="labels" updates="constant" val="('The same', 'Completely different')" valType="list"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
         <Param name="name" updates="None" val="slider_2" valType="code"/>
         <Param name="opacity" updates="constant" val="" valType="num"/>
         <Param name="ori" updates="constant" val="0" valType="num"/>
@@ -1048,9 +1048,9 @@
         <Param name="storeRating" updates="constant" val="True" valType="bool"/>
         <Param name="storeRatingTime" updates="constant" val="True" valType="bool"/>
         <Param name="styleTweaks" updates="constant" val="()" valType="list"/>
-        <Param name="styles" updates="constant" val="rating" valType="str"/>
+        <Param name="styles" updates="constant" val="slider" valType="str"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
-        <Param name="ticks" updates="constant" val="(0, 100)" valType="list"/>
+        <Param name="ticks" updates="constant" val="(1,100)" valType="list"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
       </SliderComponent>
     </Routine>
@@ -1214,9 +1214,9 @@
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
         <Param name="flip" updates="constant" val="None" valType="str"/>
-        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
         <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
-        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="letterHeight" updates="constant" val="0.07" valType="num"/>
         <Param name="name" updates="None" val="text_22" valType="code"/>
         <Param name="opacity" updates="constant" val="" valType="num"/>
         <Param name="ori" updates="constant" val="0" valType="num"/>
@@ -1259,9 +1259,9 @@
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
         <Param name="flip" updates="constant" val="None" valType="str"/>
-        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
         <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
-        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="letterHeight" updates="constant" val="0.07" valType="num"/>
         <Param name="name" updates="None" val="text_23" valType="code"/>
         <Param name="opacity" updates="constant" val="" valType="num"/>
         <Param name="ori" updates="constant" val="0" valType="num"/>
@@ -1286,9 +1286,9 @@
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
         <Param name="flip" updates="constant" val="None" valType="str"/>
-        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
         <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
-        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="letterHeight" updates="constant" val="0.07" valType="num"/>
         <Param name="name" updates="None" val="text_24" valType="code"/>
         <Param name="opacity" updates="constant" val="" valType="num"/>
         <Param name="ori" updates="constant" val="0" valType="num"/>
@@ -1325,10 +1325,10 @@
       <CodeComponent name="code_4">
         <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin Experiment" updates="constant" val="from psychopy import sound, core&amp;#10;import numpy as np&amp;#10;&amp;#10;carrier = 100&amp;#10;volume = 50&amp;#10;time = np.linspace(0, 1, 48000)&amp;#10;data = np.sin(2*np.pi*carrier*time)&amp;#10;&amp;#10;data = np.vstack([data, data]).T&amp;#10;wave = sound.Sound(data, &amp;#10;                   sampleRate=48000,&amp;#10;                   volume=volume)&amp;#10;wave.play()" valType="extendedCode"/>
-        <Param name="Begin JS Experiment" updates="constant" val="import {core, sound} from 'psychopy';&amp;#10;import * as np from 'numpy';&amp;#10;var carrier, data, time, volume, wave;&amp;#10;carrier = 100;&amp;#10;volume = 50;&amp;#10;time = np.linspace(0, 1, 48000);&amp;#10;data = np.sin((((2 * np.pi) * carrier) * time));&amp;#10;data = np.vstack([data, data]).T;&amp;#10;wave = new sound.Sound(data, {&quot;sampleRate&quot;: 48000, &quot;volume&quot;: volume});&amp;#10;wave.play();&amp;#10;" valType="extendedCode"/>
-        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="import {core, sound} from 'psychopy';&amp;#10;import * as np from 'numpy';&amp;#10;var time, tone;&amp;#10;function play_tone(tone) {&amp;#10;    var wave;&amp;#10;    tone = np.vstack([tone, tone]).T;&amp;#10;    wave = new sound.Sound((0.99 * tone), {&quot;sampleRate&quot;: 48000, &quot;volume&quot;: volume2});&amp;#10;    wave.play();&amp;#10;}&amp;#10;time = np.linspace(0, 1, 48000);&amp;#10;tone = np.sin((((2 * np.pi) * carrier2) * time));&amp;#10;tone = normalise_loudness(tone)[0];&amp;#10;play_tone((vol_factor * tone));&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="from psychopy import sound, core&amp;#10;import numpy as np&amp;#10;&amp;#10;def play_tone(tone):&amp;#10;    tone = np.vstack([tone, tone]).T&amp;#10;    wave = sound.Sound(0.99*tone, sampleRate=48000, volume=volume2)&amp;#10;    wave.play()&amp;#10;    &amp;#10;#wave = sound.Sound(data, &amp;#10;#                   sampleRate=48000,&amp;#10;#                   volume=volume)  &amp;#10;#carrier2 = 25&amp;#10;#volume = 50&amp;#10;time = np.linspace(0, 1, 48000)&amp;#10;tone = np.sin(2*np.pi*carrier2*time)&amp;#10;&amp;#10;tone = normalise_loudness(tone)[0]&amp;#10;&amp;#10;play_tone(vol_factor*tone)" valType="extendedCode"/>
         <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
@@ -1348,9 +1348,9 @@
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="durationEstim" updates="None" val="" valType="code"/>
         <Param name="flip" updates="constant" val="None" valType="str"/>
-        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
         <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
-        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="letterHeight" updates="constant" val="0.07" valType="num"/>
         <Param name="name" updates="None" val="text_25" valType="code"/>
         <Param name="opacity" updates="constant" val="" valType="num"/>
         <Param name="ori" updates="constant" val="0" valType="num"/>
@@ -1367,6 +1367,51 @@
         <Param name="wrapWidth" updates="constant" val="" valType="num"/>
       </TextComponent>
     </Routine>
+    <Routine name="examples_text">
+      <TextComponent name="text_26">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.07" valType="num"/>
+        <Param name="name" updates="None" val="text_26" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="You finished the audiogram test. &amp;#10;&amp;#10;Before starting, some example sounds will be played to introduce what is meant by tremolo, roughness and pitch. &amp;#10;&amp;#10;Press any key to continue. " valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_13">
+        <Param name="allowedKeys" updates="constant" val="" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_13" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
   </Routines>
   <Flow>
     <Routine name="instructions"/>
@@ -1375,7 +1420,7 @@
     <Routine name="instructions_audiogram"/>
     <LoopInitiator loopType="TrialHandler" name="trials_3">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[{'carrier': 440, 'volume': 0.5}, {'carrier': 440, 'volume': 0.25}, {'carrier': 440, 'volume': 0.125}, {'carrier': 440, 'volume': 0.0625}, {'carrier': 440, 'volume': 0.03125}, {'carrier': 440, 'volume': 0.015625}, {'carrier': 440, 'volume': 0.0078125}, {'carrier': 440, 'volume': 0.00390625}, {'carrier': 440, 'volume': 0.001953125}, {'carrier': 440, 'volume': 0.0009765625}, {'carrier': 1000, 'volume': 0.5}, {'carrier': 1000, 'volume': 0.25}, {'carrier': 1000, 'volume': 0.125}, {'carrier': 1000, 'volume': 0.0625}, {'carrier': 1000, 'volume': 0.03125}, {'carrier': 1000, 'volume': 0.015625}, {'carrier': 1000, 'volume': 0.0078125}, {'carrier': 1000, 'volume': 0.00390625}, {'carrier': 1000, 'volume': 0.001953125}, {'carrier': 1000, 'volume': 0.0009765625}, {'carrier': 700, 'volume': 0.5}, {'carrier': 700, 'volume': 0.25}, {'carrier': 700, 'volume': 0.125}, {'carrier': 70, 'volume': 0.0625}, {'carrier': 70, 'volume': 0.03125}, {'carrier': 70, 'volume': 0.015625}, {'carrier': 70, 'volume': 0.0078125}, {'carrier': 70, 'volume': 0.00390625}, {'carrier': 70, 'volume': 0.001953125}, {'carrier': 70, 'volume': 0.0009765625}]" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'carrier2': 440, 'volume2': 0.5}, {'carrier2': 440, 'volume2': 0.25}, {'carrier2': 440, 'volume2': 0.125}, {'carrier2': 440, 'volume2': 0.0625}, {'carrier2': 440, 'volume2': 0.03125}, {'carrier2': 440, 'volume2': 0.015625}, {'carrier2': 440, 'volume2': 0.0078125}, {'carrier2': 440, 'volume2': 0.00390625}, {'carrier2': 440, 'volume2': 0.001953125}, {'carrier2': 440, 'volume2': 0.0009765625}, {'carrier2': 1000, 'volume2': 0.5}, {'carrier2': 1000, 'volume2': 0.25}, {'carrier2': 1000, 'volume2': 0.125}, {'carrier2': 1000, 'volume2': 0.0625}, {'carrier2': 1000, 'volume2': 0.03125}, {'carrier2': 1000, 'volume2': 0.015625}, {'carrier2': 1000, 'volume2': 0.0078125}, {'carrier2': 1000, 'volume2': 0.00390625}, {'carrier2': 1000, 'volume2': 0.001953125}, {'carrier2': 1000, 'volume2': 0.0009765625}, {'carrier2': 700, 'volume2': 0.5}, {'carrier2': 700, 'volume2': 0.25}, {'carrier2': 700, 'volume2': 0.125}, {'carrier2': 700, 'volume2': 0.0625}, {'carrier2': 700, 'volume2': 0.03125}, {'carrier2': 700, 'volume2': 0.015625}, {'carrier2': 700, 'volume2': 0.0078125}, {'carrier2': 700, 'volume2': 0.00390625}, {'carrier2': 700, 'volume2': 0.001953125}, {'carrier2': 700, 'volume2': 0.0009765625}]" valType="str"/>
       <Param name="conditionsFile" updates="None" val="audiogram2.xlsx" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
@@ -1388,6 +1433,7 @@
     <Routine name="trial_audio"/>
     <Routine name="fixation_audio2"/>
     <LoopTerminator name="trials_3"/>
+    <Routine name="examples_text"/>
     <Routine name="example_sounds"/>
     <LoopInitiator loopType="TrialHandler" name="block">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
