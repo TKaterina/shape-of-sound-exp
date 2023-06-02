@@ -3,6 +3,7 @@
 # Set-up
 
 1. Open PsychoPy version 2023.2.3 -> This is PsychoPy not PsychoPy2 in the startmenu.
+2. In Windows Sound menu, set sound level to 25. 
 
 # No sound?
 
