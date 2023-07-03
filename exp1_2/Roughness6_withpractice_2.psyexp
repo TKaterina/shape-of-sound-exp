@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" ?>
-<PsychoPy2experiment encoding="utf-8" version="2021.2.0">
+<PsychoPy2experiment encoding="utf-8" version="2021.2.3">
   <Settings>
     <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
     <Param name="Audio lib" updates="None" val="ptb" valType="str"/>
@@ -1268,7 +1268,7 @@
         <Param name="wrapWidth" updates="constant" val="" valType="num"/>
       </TextComponent>
       <KeyboardComponent name="key_resp_12">
-        <Param name="allowedKeys" updates="constant" val="'return'" valType="list"/>
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
         <Param name="correctAns" updates="constant" val="" valType="str"/>
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="discard previous" updates="constant" val="True" valType="bool"/>
@@ -1608,7 +1608,7 @@
     <Routine name="vol_check"/>
     <Routine name="instructions_audiogram"/>
     <LoopInitiator loopType="TrialHandler" name="trials_3">
-      <Param name="Selected rows" updates="None" val="1" valType="str"/>
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
       <Param name="conditions" updates="None" val="[{'carrier2': 440, 'volume2': 0.5}, {'carrier2': 440, 'volume2': 0.25}, {'carrier2': 440, 'volume2': 0.125}, {'carrier2': 440, 'volume2': 0.0625}, {'carrier2': 440, 'volume2': 0.03125}, {'carrier2': 440, 'volume2': 0.015625}, {'carrier2': 440, 'volume2': 0.0078125}, {'carrier2': 440, 'volume2': 0.00390625}, {'carrier2': 440, 'volume2': 0.001953125}, {'carrier2': 440, 'volume2': 0.0009765625}, {'carrier2': 1000, 'volume2': 0.5}, {'carrier2': 1000, 'volume2': 0.25}, {'carrier2': 1000, 'volume2': 0.125}, {'carrier2': 1000, 'volume2': 0.0625}, {'carrier2': 1000, 'volume2': 0.03125}, {'carrier2': 1000, 'volume2': 0.015625}, {'carrier2': 1000, 'volume2': 0.0078125}, {'carrier2': 1000, 'volume2': 0.00390625}, {'carrier2': 1000, 'volume2': 0.001953125}, {'carrier2': 1000, 'volume2': 0.0009765625}, {'carrier2': 700, 'volume2': 0.5}, {'carrier2': 700, 'volume2': 0.25}, {'carrier2': 700, 'volume2': 0.125}, {'carrier2': 700, 'volume2': 0.0625}, {'carrier2': 700, 'volume2': 0.03125}, {'carrier2': 700, 'volume2': 0.015625}, {'carrier2': 700, 'volume2': 0.0078125}, {'carrier2': 700, 'volume2': 0.00390625}, {'carrier2': 700, 'volume2': 0.001953125}, {'carrier2': 700, 'volume2': 0.0009765625}]" valType="str"/>
       <Param name="conditionsFile" updates="None" val="audiogram2.xlsx" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
